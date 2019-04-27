@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_quality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_download"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@id/btn_download"
+        android:textSize="18dp"
+        android:text="音质" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_quality"
+        android:layout_alignStart="@id/tv_quality"
+        android:layout_toStartOf="@id/btn_download"
+        android:layout_alignBottom="@id/btn_download"
+        android:text="大小" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="10dp"
+        android:text="下载"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">氢Song</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">氢Song</string>
+    <string name="nav_header_subtitle">轻松下载你想要的音乐</string>
+    <string name="str_search_hint">歌名/歌手</string>
+    <string name="str_search">搜索</string>
+    <string name="str_kugou">酷狗音乐</string>
+    <string name="str_qqmusic">QQ音乐</string>
+</resources>
