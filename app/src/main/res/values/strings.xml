@@ -8,4 +8,6 @@
     <string name="str_search">搜索</string>
     <string name="str_kugou">酷狗音乐</string>
     <string name="str_qqmusic">QQ音乐</string>
+    <string name="str_wyyyy">网易云音乐</string>
+    <string name="str_kuwo">酷我音乐</string>
 </resources>

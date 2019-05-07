@@ -5,9 +5,15 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/item_history"
+            android:icon="@drawable/download"
+            android:title="下载记录" />
+        <item
+            android:id="@+id/item_setting"
             android:icon="@drawable/setting"
             android:title="设置" />
         <item
+            android:id="@+id/item_about"
             android:icon="@drawable/about"
             android:title="关于" />
     </group>

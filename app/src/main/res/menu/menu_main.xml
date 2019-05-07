@@ -16,4 +16,12 @@
         android:id="@+id/platform_qq"
         android:title="@string/str_qqmusic"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/platform_wy"
+        android:title="@string/str_wyyyy"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/platform_kw"
+        android:title="@string/str_kuwo"
+        app:showAsAction="never"/>
 </menu>

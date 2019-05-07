@@ -191,13 +191,31 @@ public class MainActivity extends AppCompatActivity
                 PLATFORM = "QQ";
                 handler.sendEmptyMessage(-1);
                 break;
+            case R.id.platform_wy:
+                Toast.makeText(MainActivity.this,"网易云音乐",Toast.LENGTH_SHORT).show();
+                PLATFORM = "KG";
+                handler.sendEmptyMessage(-1);
+                break;
+            case R.id.platform_kw:
+                Toast.makeText(MainActivity.this,"酷我音乐",Toast.LENGTH_SHORT).show();
+                PLATFORM = "KG";
+                handler.sendEmptyMessage(-1);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        item.setChecked(false);
+        switch (item.getItemId()) {
+            case R.id.item_history:
+                Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.item_setting:
+            case R.id.item_about:
+                break;
+        }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
